@@ -106,7 +106,7 @@ const Header = ({ account }) => {
               className="humbarger-btn"
               onClick={() => handleMobileMenuTogle()}
             >
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </button>
           </div>
         </div>

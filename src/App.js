@@ -4,7 +4,6 @@ import Home from "./pages/home";
 import "./App.css";
 import Web3 from "web3";
 import { contractAbi, contractAddress } from "./config";
-import TermsAndConditions from "./pages/termsAndConditions";
 import swal from "sweetalert";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

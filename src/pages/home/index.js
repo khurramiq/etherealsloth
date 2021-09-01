@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Header from "../../components/header";
-// import Web3 from "web3";
-// import { contractAbi, contractAddress } from "./../../config";
-import swal from "sweetalert";
 import "./home.css";
 import Section1 from "../../components/section1";
 import Section2 from "../../components/Section2";
@@ -22,20 +19,7 @@ const Home = ({ account, mint, totalSupply, displayPrice }) => {
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(0);
-
-  const connectHandle = () => {
-    swal({
-      title: "Are you sure?",
-      text: "Are you sure that you want to leave this page?",
-      icon: "warning",
-      dangerMode: true,
-    }).then((willDelete) => {
-      if (willDelete) {
-        swal("Deleted!", "Your imaginary file has been deleted!", "success");
-      }
-    });
-  };
+  const [seconds, setSeconds] = useState(0);  
 
   useEffect(() => {
     const id = setTimeout(() => {
