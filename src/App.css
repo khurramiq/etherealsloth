@@ -1,0 +1,10 @@
+.mobile-view-connect-button-wrapper{
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .mobile-view-connect-button-wrapper{
+        display: block;        
+    }   
+}

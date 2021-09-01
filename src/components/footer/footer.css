@@ -1,0 +1,38 @@
+.footer-main-wrapper{
+  width: 100%;
+  padding: 100px 0;
+}
+
+.footer-inner-wrapper{
+  width: 90%;
+  margin: auto;
+}
+
+.copyright-text-wrapper p{
+  color: #67529E;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.footer-icons-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.icon-wrapper-single{
+  padding: 20px;
+}
+
+.icon-wrapper-single img{
+  width: 57px;
+  height: 57px;
+}
+
+
+
+@media (max-width: 768px) {    
+  
+}

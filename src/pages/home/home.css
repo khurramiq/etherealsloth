@@ -1,0 +1,15 @@
+.banner{
+    background-image: url(../../assets/banner-bg.png)
+}
+.collection{
+    background-image: url(../../assets/collections-bg.png)
+}
+.roadmap{
+    background-image: url(../../assets/roadmap-bg.png)
+}
+.specification{
+    background-image: url(../../assets/specs-bg.png)
+}
+.team{
+    background-image: url(../../assets/team-faq-bg.png)
+}
