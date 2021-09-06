@@ -30,12 +30,12 @@ const Section4 = () => {
               <p className="lt2">
                 0.28888 ETH will be sent to 5<br /> random minters
               </p>
-              <span className="pink lt3">25% Solid</span>
+              <span className="pink lt3">25% Sold</span>
               <p className="lt4">
                 ETHereal Sloths will be listed on rarity.tools and Rarity Sniper
                 where you can check the rarity and rankings of your Sloths
               </p>
-              <span className="pink lt5">75% Solid</span>
+              <span className="pink lt5">75% Sold</span>
               <ul className="lt6">
                 <li>
                   20 ETH will be donated to “The Sloth Conservation Foundation”{" "}
@@ -54,11 +54,11 @@ const Section4 = () => {
             </div>
             <div className="roadmap-right">
               <p className="rt1">8th September 2021 8 PM EST</p>
-              <span className="pink rt2">10% Solid</span>
+              <span className="pink rt2">10% Sold</span>
               <p className="rt3">
                 10 ETHereal Sloths will be randomly airdropped to early minters
               </p>
-              <span className="pink rt4">50% Solid</span>
+              <span className="pink rt4">50% Sold</span>
               <ul className="rt5">
                 <li>Development of our merchandise website will begin</li>
                 <li>
@@ -66,7 +66,7 @@ const Section4 = () => {
                   ETHereal Sloth NFT
                 </li>
               </ul>
-              <span className="pink rt6">100% Solid</span>
+              <span className="pink rt6">100% Sold</span>
             </div>
           </div>
           <div className="img-box">
