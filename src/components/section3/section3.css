@@ -5,7 +5,7 @@
 .section3-inner-wrapper {
   width: 90%;
   margin: auto;
-  padding: 120px 0;
+  padding: 120px 0;  
 }
 
 .section3-text-wrapper {
@@ -51,8 +51,12 @@
 
 .images-wrapper .img-row {
   display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
+  justify-content: center;
+  margin-top: 30px;  
+}
+
+.images-wrapper .img-row img{
+  margin-left: 30px;
 }
 
 @media (max-width: 768px) {
@@ -65,5 +69,8 @@
   }
   .section3-inner-wrapper {
     padding: 50px 0;
+  }
+  .images-wrapper .img-row img{
+    margin-left: 0px;
   }
 }

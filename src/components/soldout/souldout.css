@@ -8,7 +8,7 @@
   width: 90%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .section1-inner-wrapper .section1-left .heading1 {

@@ -10,17 +10,23 @@ const Footer = () => {
     <div className="footer-main-wrapper">
       <div className="footer-inner-wrapper">
         <div className="copyright-text-wrapper">
-          <p>&cpy; Copyright 2021 ETHereal Sloths. All rights Reserved.</p>
+          <p>@ Copyright 2021 ETHereal Sloths. All rights Reserved.</p>
         </div>
         <div className="footer-icons-wrapper">
           <div className="icon-wrapper-single">
-            <img src={opensealogo} alt="opensealogo" />
+            <a href="https://opensea.io/" target="_blank">
+              <img src={opensealogo} alt="opensealogo" />
+            </a>
           </div>
           <div className="icon-wrapper-single">
-            <img src={twitterlogo} alt="twitterlogo" />
+            <a href="https://twitter.com/borsezinfinity" target="_blank">
+              <img src={twitterlogo} alt="twitterlogo" />
+            </a>
           </div>
           <div className="icon-wrapper-single">
-            <img src={discordlogo} alt="discordlogo" />
+            <a href="https://discord.gg/zQysa3yqGE" target="_blank">
+              <img src={discordlogo} alt="discordlogo" />
+            </a>
           </div>
         </div>
       </div>

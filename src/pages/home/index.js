@@ -14,12 +14,12 @@ import Footer from "../../components/footer";
 import moment from "moment";
 
 toast.configure();
-const Home = ({ account, mint, totalSupply, displayPrice }) => {  
-  const difference = +new moment("2021-09-30 18:00").utc() - +new Date();
+const Home = ({ account, mint, totalSupply, displayPrice, loadWeb3 }) => {
+  const difference = +new moment("2021-09-09 12:00").utc() - +new Date();
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(0);  
+  const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
     const id = setTimeout(() => {
@@ -38,12 +38,12 @@ const Home = ({ account, mint, totalSupply, displayPrice }) => {
   return (
     <div style={{ backgroundColor: "#1D1F4A" }}>
       <div className="banner">
-        <Header account={account} />
+        <Header account={account} loadWeb3={loadWeb3} />
         <div className="mobile-view-connect-button-wrapper">
-          <button className="header-connect-button">
+          <button className="header-connect-button" onClick={() => loadWeb3()}>
             {account
               ? account.slice(0, 8) + "..." + account.slice(account.length - 5)
-              : "Disconnected"}
+              : "CONNECT"}
           </button>
           I
         </div>

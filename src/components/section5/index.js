@@ -1,12 +1,12 @@
 import React from "react";
-import specsimg1 from "../../assets/specs-img-1.png";
-import specsimg2 from "../../assets/specs-img-2.png";
-import specsimg3 from "../../assets/specs-img-3.png";
-import specsimg4 from "../../assets/specs-img-4.png";
-import specsimg5 from "../../assets/specs-img-5.png";
-import specsimg6 from "../../assets/specs-img-6.png";
-import specsimg7 from "../../assets/specs-img-7.png";
-import specsimg8 from "../../assets/specs-img-8.png";
+import specsimg1 from "../../assets/s1.png";
+import specsimg2 from "../../assets/s2.png";
+import specsimg3 from "../../assets/s3.png";
+import specsimg4 from "../../assets/s4.png";
+import specsimg5 from "../../assets/s5.png";
+import specsimg6 from "../../assets/s6.png";
+import specsimg7 from "../../assets/s7.png";
+import specsimg8 from "../../assets/s8.png";
 import "./section5.css";
 
 const Section5 = () => {
@@ -26,11 +26,8 @@ const Section5 = () => {
               </div>
               <div className="cart-text-wrapper">
                 <p>
-                  8,888 Unique ETHereal
-                  <br />
-                  Sloths stored as
-                  <br />
-                  ERC-721 tokens.
+                  8,888 Unique ETHereal <br /> Sloths stored as <br /> ERC-721
+                  tokens
                 </p>
               </div>
             </div>
@@ -40,13 +37,8 @@ const Section5 = () => {
               </div>
               <div className="cart-text-wrapper">
                 <p>
-                  All ETHereal Sloths will be
-                  <br />
-                  listed for a fixed price of
-                  <br />
-                  0.068888 ETH to ensure a
-                  <br />
-                  fair distribution
+                  All ETHereal Sloths will be <br /> listed for a fixed price of{" "}
+                  <br /> 0.068888 ETH to ensure a <br /> fair distribution
                 </p>
               </div>
             </div>
@@ -57,12 +49,9 @@ const Section5 = () => {
               <div className="cart-text-wrapper">
                 <p>
                   Algorithmically generated
-                  <br />
-                  at random from over 200
-                  <br />
-                  unique attributes across
-                  <br />
-                  11 categories
+                  <br /> at random from over 220
+                  <br /> unique attributes across
+                  <br /> 12 categories
                 </p>
               </div>
             </div>
@@ -72,11 +61,9 @@ const Section5 = () => {
               </div>
               <div className="cart-text-wrapper">
                 <p>
-                  Stored on IPFS
-                  <br />
-                  (InterPlanetary File
-                  <br />
-                  System)
+                  18 Rare Sloths manually
+                  <br /> created from the artists’
+                  <br /> meditative experiences
                 </p>
               </div>
             </div>
@@ -87,7 +74,10 @@ const Section5 = () => {
                 <img src={specsimg5} alt="specsimg5" />
               </div>
               <div className="cart-text-wrapper">
-                <p>Non sequentially minted</p>
+                <p>
+                  Stored on IPFS
+                  <br /> (InterPlanetary File System)
+                </p>
               </div>
             </div>
             <div className="section5-card-wrapper">
@@ -96,9 +86,10 @@ const Section5 = () => {
               </div>
               <div className="cart-text-wrapper">
                 <p>
-                  All Ethereal Sloths come with
-                  <br />
-                  full commercial rights
+                  All ETHereal Sloths are non
+                  <br /> sequentially minted and
+                  <br /> come with full commercial
+                  <br /> rights
                 </p>
               </div>
             </div>
@@ -108,11 +99,9 @@ const Section5 = () => {
               </div>
               <div className="cart-text-wrapper">
                 <p>
-                  20 ETH founds reserved to
-                  <br />
-                  support the NFT
-                  <br />
-                  community
+                  25 ETH funds reserved to
+                  <br /> support the NFT
+                  <br /> community
                 </p>
               </div>
             </div>
@@ -121,7 +110,11 @@ const Section5 = () => {
                 <img src={specsimg8} alt="specsimg8" />
               </div>
               <div className="cart-text-wrapper">
-                <p>20 ETH will go to charity</p>
+                <p>
+                  20 ETH will be donated to
+                  <br /> “The Sloth Conservation
+                  <br /> Foundation”
+                </p>
               </div>
             </div>
           </div>

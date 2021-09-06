@@ -7,7 +7,7 @@ const FaqSection = () => {
   const [accordion1, setAccordion1] = useState(false);
   const [accordion2, setAccordion2] = useState(false);
   const [accordion3, setAccordion3] = useState(true);
-  const [accordion4, setAccordion4] = useState(false);
+  // const [accordion4, setAccordion4] = useState(false);
   const [accordion5, setAccordion5] = useState(false);
   const [accordion6, setAccordion6] = useState(false);
   const [accordion7, setAccordion7] = useState(false);
@@ -16,7 +16,7 @@ const FaqSection = () => {
     setAccordion1((prev) => !prev);
     setAccordion2(false);
     setAccordion3(false);
-    setAccordion4(false);
+    // setAccordion4(false);
     setAccordion5(false);
     setAccordion6(false);
     setAccordion7(false);
@@ -26,7 +26,7 @@ const FaqSection = () => {
     setAccordion1(false);
     setAccordion2((prev) => !prev);
     setAccordion3(false);
-    setAccordion4(false);
+    // setAccordion4(false);
     setAccordion5(false);
     setAccordion6(false);
     setAccordion7(false);
@@ -36,25 +36,25 @@ const FaqSection = () => {
     setAccordion1(false);
     setAccordion2(false);
     setAccordion3((prev) => !prev);
-    setAccordion4(false);
+    // setAccordion4(false);
     setAccordion5(false);
     setAccordion6(false);
     setAccordion7(false);
   };
-  const handleAccordion4Togle = () => {
-    setAccordion1(false);
-    setAccordion2(false);
-    setAccordion3(false);
-    setAccordion4((prev) => !prev);
-    setAccordion5(false);
-    setAccordion6(false);
-    setAccordion7(false);
-  };
+  // const handleAccordion4Togle = () => {
+  //   setAccordion1(false);
+  //   setAccordion2(false);
+  //   setAccordion3(false);
+  //   setAccordion4((prev) => !prev);
+  //   setAccordion5(false);
+  //   setAccordion6(false);
+  //   setAccordion7(false);
+  // };
   const handleAccordion5Togle = () => {
     setAccordion1(false);
     setAccordion2(false);
     setAccordion3(false);
-    setAccordion4(false);
+    // setAccordion4(false);
     setAccordion5((prev) => !prev);
     setAccordion6(false);
     setAccordion7(false);
@@ -63,7 +63,7 @@ const FaqSection = () => {
     setAccordion1(false);
     setAccordion2(false);
     setAccordion3(false);
-    setAccordion4(false);
+    // setAccordion4(false);
     setAccordion5(false);
     setAccordion6((prev) => !prev);
     setAccordion7(false);
@@ -72,7 +72,7 @@ const FaqSection = () => {
     setAccordion1(false);
     setAccordion2(false);
     setAccordion3(false);
-    setAccordion4(false);
+    // setAccordion4(false);
     setAccordion5(false);
     setAccordion6(false);
     setAccordion7((prev) => !prev);
@@ -93,7 +93,7 @@ const FaqSection = () => {
             >
               <div className="q-text-wrapper">
                 <p style={accordion1 ? { color: "#C7F649" } : null}>
-                  What is Ethereal Sloths?
+                  What are Ethereal Sloths?
                 </p>
               </div>
               <div className="q-expand-icon-wrapper">
@@ -105,13 +105,9 @@ const FaqSection = () => {
               style={accordion1 ? null : { display: "none" }}
             >
               <p>
-                Ethereal Sloth will be available for purchase on our website
-                through an initial sale.
-                <br />
-                At the time of purchase, a randomly selected Ethereal Sloth will
-                be minted on the
-                <br />
-                blockchain and delivered to your wallet and Opensea account.
+                The Ethereal Sloths is a collection of 8,888 unique NFTs stored
+                as ERC-721 tokens on the Ethereum Blockchain. Ownership includes
+                creative & commercial rights of your ETHereal Sloths
               </p>
             </div>
           </div>
@@ -134,15 +130,7 @@ const FaqSection = () => {
               className="faq-answer-wrapper"
               style={accordion2 ? null : { display: "none" }}
             >
-              <p>
-                Ethereal Sloth will be available for purchase on our website
-                through an initial sale.
-                <br />
-                At the time of purchase, a randomly selected Ethereal Sloth will
-                be minted on the
-                <br />
-                blockchain and delivered to your wallet and Opensea account.
-              </p>
+              <p>0.068888 + gas fee (no bonding curve or price tiers)</p>
             </div>
           </div>
           {/* Question 3 */}
@@ -166,17 +154,14 @@ const FaqSection = () => {
             >
               <p>
                 Ethereal Sloth will be available for purchase on our website
-                through an initial sale.
-                <br />
-                At the time of purchase, a randomly selected Ethereal Sloth will
-                be minted on the
-                <br />
-                blockchain and delivered to your wallet and Opensea account.
+                through an initial sale. At the time of purchase, a randomly
+                selected Ethereal Sloth will be minted on the blockchain and
+                delivered to your wallet and Opensea account.
               </p>
             </div>
           </div>
           {/* Question 4 */}
-          <div className="faq-single-accordion">
+          {/* <div className="faq-single-accordion">
             <div
               className="faq-question-wrapper"
               onClick={() => handleAccordion4Togle()}
@@ -204,7 +189,7 @@ const FaqSection = () => {
                 blockchain and delivered to your wallet and Opensea account.
               </p>
             </div>
-          </div>
+          </div> */}
           {/* Question 5 */}
           <div className="faq-single-accordion">
             <div
@@ -224,15 +209,7 @@ const FaqSection = () => {
               className="faq-answer-wrapper"
               style={accordion5 ? null : { display: "none" }}
             >
-              <p>
-                Ethereal Sloth will be available for purchase on our website
-                through an initial sale.
-                <br />
-                At the time of purchase, a randomly selected Ethereal Sloth will
-                be minted on the
-                <br />
-                blockchain and delivered to your wallet and Opensea account.
-              </p>
+              <p>ETHereal Sloths will go live on 8th September at 8PM EST</p>
             </div>
           </div>
           {/* Question 6 */}
@@ -255,13 +232,8 @@ const FaqSection = () => {
               style={accordion6 ? null : { display: "none" }}
             >
               <p>
-                Ethereal Sloth will be available for purchase on our website
-                through an initial sale.
-                <br />
-                At the time of purchase, a randomly selected Ethereal Sloth will
-                be minted on the
-                <br />
-                blockchain and delivered to your wallet and Opensea account.
+                88 ETHereal Sloths will be kept reserved for airdrops, community
+                giveaways and the creators.
               </p>
             </div>
           </div>
@@ -285,13 +257,13 @@ const FaqSection = () => {
               style={accordion7 ? null : { display: "none" }}
             >
               <p>
-                Ethereal Sloth will be available for purchase on our website
-                through an initial sale.
-                <br />
-                At the time of purchase, a randomly selected Ethereal Sloth will
-                be minted on the
-                <br />
-                blockchain and delivered to your wallet and Opensea account.
+                Download the Metamask extension for Google Chrome. Buy Ethereum
+                (ETH) on an exchange like Coinbase, Binance, PayPal, etc and
+                send it to your Metamask ETH Wallet Public Address with an ERC20
+                transfer. Connect your Metamask Wallet to our website by
+                clicking on the Chrome extension icon at the top-right of the
+                browser (it looks like a Fox) while on our website. Click “Buy
+                Now” on our website and approve the transaction on Metamask.
               </p>
             </div>
           </div>

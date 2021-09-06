@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import headerlogo from "../../assets/ethereal-sloths-logo.svg";
 import "./header.css";
 
-const Header = ({ account }) => {
+const Header = ({ account, loadWeb3 }) => {
   let history = useHistory();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const handleMobileMenuTogle = () => {
@@ -12,7 +12,6 @@ const Header = ({ account }) => {
   };
   const gotoHome = () => {
     history.push("/");
-    handleMobileMenuTogle();
     scroll.scrollToTop();
   };
   return (
@@ -94,12 +93,26 @@ const Header = ({ account }) => {
                   Team
                 </Link>
               </li>
-              <button className="header-connect-button">
+              <li>
+                <Link
+                  activeClass="active"
+                  to="faq"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  FAQ
+                </Link>
+              </li>
+              <button
+                className="header-connect-button"
+                onClick={() => loadWeb3()}
+              >
                 {account
                   ? account.slice(0, 8) +
                     "..." +
                     account.slice(account.length - 5)
-                  : "Disconnected"}
+                  : "CONNECT"}
               </button>
             </ul>
             <button
@@ -197,6 +210,19 @@ const Header = ({ account }) => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Team
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="faq"
+                offset={100}
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                FAQ
               </Link>
             </li>
           </ul>

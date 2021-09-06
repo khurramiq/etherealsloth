@@ -1,5 +1,5 @@
 import React from "react";
-import bannerimage from "../../assets/banner-image.png";
+import bannerimage from "../../assets/top1.png";
 import opensealogo from "../../assets/opensea-logo.svg";
 import "./souldout.css";
 

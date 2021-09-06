@@ -1,15 +1,16 @@
 .section2-main-wrapper {
   width: 100%;
   margin-top: 130px;
-  margin-bottom: 130px;
+  margin-bottom: 130px;  
 }
 
 .section2-inner-wrapper {
-  width: 80%;
-  text-align: center;
+  /* width: 80%; */
+  width: 970px;
+  text-align: center;  
   margin: auto;
   background-color: rgba(22, 10, 65, 0.8);
-  padding: 80px 0;
+  padding: 80px 0;  
 }
 
 .watch-space-btn-wrapper .round {
@@ -56,63 +57,74 @@
   color: #fff;
 }
 
-.timer-wrapper {
+.timer-wrapper-af {
   margin-top: 50px !important;
-  width: 60%;
+  width: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  
 }
 
-.timer-single-box {
+.timer-single-box-af {
   border: 1px solid #7865b7;
   border-radius: 10px;
-  height: 126px;
-  width: 134px;
-  position: relative;
+  width: 181px;
+  height: 99px;  
+  position: relative;  
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
 
-.timer-single-box .top span {
+.timer-single-box-af .top span {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 48px;
-  line-height: 56.25px;
+  font-size: 28px;  
+  width: 33px;
+  height: 33px;
   text-align: center;
   color: #fff;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 16px;
+  margin-bottom: 17px;
+  margin-left: 25px;
+  margin-right: 25px;  
 }
 
-.timer-single-box .bottom {
+.timer-single-box-af .bottom {
   background-color: #33285b;
-  position: absolute;
+  position: absolute;  
   bottom: 0;
   left: 0;
   right: 0;
   padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.timer-single-box .bottom span {
+.timer-single-box-af .bottom span {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  width: 52px;
+  height: 21px;
   font-size: 15px;
   line-height: 17.58px;
   text-align: center;
   color: #fff;
 }
 
-.const-main-wrapper{
+.const-main-wrapper {
   display: flex;
   justify-content: center;
+  margin-left: 49px;     
+}
+.const-main-wrapper .right{
+  margin-left: 41px;
 }
 
 .cost-wrapper {
-  margin-top: 35px;
-  margin-left: 20px;
+  margin-top: 0;  
 }
 
 .cost-wrapper .cost-text {
@@ -160,60 +172,93 @@
   color: #1d104a;
 }
 
-.remove-icon{
-  color: #fff;
-  margin-right: 10px;
-  font-size: 14px;
-  cursor: pointer;
-}
-.remove-icon:hover{
-  color: #9379DA;  
-}
-.add-icon{
-  color: #fff;
-  margin-left: 10px;
-  font-size: 14px;
-  cursor: pointer;
-}
-.add-icon:hover{
-  color: #9379DA;  
+.buy-now-btn-wrapper button:hover {    
+  background: #15093F;    
+  border: 1px solid #FF54A3;
+  color: #FF54A3;  
 }
 
-@media (max-width: 768px) { 
+.remove-icon {
+  color: #fff;  
+  font-size: 14px;
+  width: 16px;
+  cursor: pointer;
+}
+.remove-icon:hover {
+  color: #9379da;
+}
+.add-icon {
+  color: #fff;  
+  font-size: 14px;
+  width: 16px;
+  cursor: pointer;
+}
+.add-icon:hover {
+  color: #9379da;
+}
+
+/* @media (max-width: 1980px) {  
+  .section2-inner-wrapper {
+    width: 50%;    
+  }
+} */
+
+
+@media (max-width: 768px) {
   .section2-main-wrapper {
     margin: 50px 0;
   }
   .section2-inner-wrapper {
     width: 90%;
-  } 
-  .timer-wrapper {
-    width: 100%;
+  }
+  .timer-wrapper-af {
+    width: 100%;    
   }
 
-  .timer-single-box {      
-    width: 100px;    
+  .timer-single-box-af {
+    width: 150px;
     display: inline-block;
-}
-
-  .timer-single-box .top span {  
-    font-size: 44px;    
+    margin-bottom: 30px;
   }
 
-  .timer-single-box .bottom span {    
-    font-size: 12px;    
+  .timer-single-box-af .top span {
+    font-size: 44px;
   }
 
-  .timer-wrapper{
-    display: block;  
-    text-align: center;  
+  .timer-single-box-af .top span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 28px;  
+    width: 33px;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    margin-left: 15px;
+    margin-right: 15px;      
   }
-  .const-main-wrapper{
-   display: block;
+
+  .timer-single-box-af .bottom span {
+    font-size: 12px;
   }
-  .watch-space-btn-wrapper .round{
+
+  .timer-wrapper-af {
+    display: block;
+    text-align: center;
+  }
+  .const-main-wrapper {
+    display: block;    
+  }
+  .watch-space-btn-wrapper .round {
     font-size: 18px;
   }
-  .watch-space-btn-wrapper .round .pink{
+  .watch-space-btn-wrapper .round .pink {
     font-size: 18px;
+  }
+  .const-main-wrapper .right{
+    margin-left: 0px;
+    margin-top: 10px;
   }
 }

@@ -1,15 +1,26 @@
-.banner{
-    background-image: url(../../assets/banner-bg.png)
+.banner {
+  background-image: url(../../assets/banner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #1B1C44;  
 }
-.collection{
-    background-image: url(../../assets/collections-bg.png)
+.collection {
+  background-image: url(../../assets/collections-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.roadmap{
-    background-image: url(../../assets/roadmap-bg.png)
+.roadmap {
+  background-image: url(../../assets/roadmap-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.specification{
-    background-image: url(../../assets/specs-bg.png)
+.specification {
+  background-image: url(../../assets/specs-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.team{
-    background-image: url(../../assets/team-faq-bg.png)
+.team {
+  background-image: url(../../assets/team-faq-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }

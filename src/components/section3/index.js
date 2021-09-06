@@ -1,13 +1,13 @@
 import React from "react";
-import galleryimg1 from "../../assets/gallery-img-1.png";
-import galleryimg2 from "../../assets/gallery-img-2.png";
-import galleryimg3 from "../../assets/gallery-img-3.png";
-import galleryimg4 from "../../assets/gallery-img-4.png";
-import galleryimg5 from "../../assets/gallery-img-5.png";
-import galleryimg6 from "../../assets/gallery-img-6.png";
-import galleryimg7 from "../../assets/gallery-img-7.png";
-import galleryimg8 from "../../assets/gallery-img-8.png";
-import galleryimg9 from "../../assets/gallery-img-9.png";
+import galleryimg1 from "../../assets/c1.png";
+import galleryimg2 from "../../assets/c2.png";
+import galleryimg3 from "../../assets/c3.png";
+import galleryimg4 from "../../assets/c4.png";
+import galleryimg5 from "../../assets/c5.png";
+import galleryimg6 from "../../assets/c6.png";
+import galleryimg7 from "../../assets/c7.png";
+import galleryimg8 from "../../assets/c8.png";
+import galleryimg9 from "../../assets/c9.png";
 import "./section3.css";
 
 const Section3 = () => {
@@ -17,20 +17,20 @@ const Section3 = () => {
         <div className="section3-text-wrapper">
           <h1>
             The <span>ETHereal</span> Collection
-          </h1>
+          </h1>          
           <div className="section3-text-inner-wrapper">
             <p className="text1">These Sloths are meditative in nature.</p>
             <p className="text2">
-              The variants portary different experiences it has while
-              meditating. Some are
+            The variants portray different experiences they have while
+            meditating. Some are
             </p>
             <p className="text2">
-              peaceful and blissed out while some are lost in their thoughts.
-              Slowly they are
+            peaceful and blissed out while some are lost in
+            their thoughts. Slowly they are
             </p>
             <p className="text2">
-              awakening from the dream called life and entering into new
-              consciousness
+            awakening from the dream called
+            ‘Life’ and entering into new consciousness.
             </p>
           </div>
           <div className="images-wrapper">

@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import RemoveIcon from "@material-ui/icons/Remove";
 import AddIcon from "@material-ui/icons/Add";
-import "./section2.css";
+import "./afterlaunch.css";
 
-const AfterLaunch = () => {
+const AfterLaunch = ({ account, mint }) => {
   const [value, setValue] = useState(1);
   const increase = () => {
-    if (value < 20) {
+    if (value < 20 && account) {
       setValue((prev) => prev + 1);
     }
   };
   const decrease = () => {
-    if (value > 1) {
+    if (value > 1 && account) {
       setValue((prev) => prev - 1);
     }
   };
@@ -30,9 +30,9 @@ const AfterLaunch = () => {
             </p>
           </>
         </div>
-        <div className="timer-wrapper">
+        <div className="timer-wrapper-af">
           <>
-            <div className="timer-single-box">
+            <div className="timer-single-box-af">
               <div className="top">
                 <RemoveIcon
                   className="remove-icon"
@@ -49,21 +49,38 @@ const AfterLaunch = () => {
               <div className="cost-wrapper">
                 <p className="cost-text">COST</p>
                 <p className="cost-digit">
-                  {(value * 0.068888).toFixed(6)} <span>+GAS</span>
+                  0.068888 <span>+ GAS</span>
                 </p>
               </div>
 
-              <div className="cost-wrapper">
+              <div className="cost-wrapper right">
                 <p className="cost-text">TOTAL COST</p>
                 <p className="cost-digit">
-                  {(value * 0.068888).toFixed(6)} <span>+GAS</span>
+                  {(value * 0.068888).toFixed(6)} <span>+ GAS</span>
                 </p>
               </div>
             </div>
           </>
         </div>
         <div className="buy-now-btn-wrapper">
-          <button>BUY NOW</button>
+          <button
+            onClick={() => mint(value)}
+            style={
+              !account
+                ? {
+                    background: "grey",
+                    backgroundColor: "grey",
+                    color: "white",
+                    cursor: "default",
+                    border: "none",
+                  }
+                : null
+            }
+            disabled={!account ? true : false}
+          >
+            BUY NOW
+          </button>
+          <p style={account ? { display: "none" } : null}>Connect Wallet</p>
         </div>
       </div>
     </div>

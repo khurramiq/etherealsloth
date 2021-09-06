@@ -1,6 +1,6 @@
 import React from "react";
-import roadmapimgleft from "../../assets/roadmap-img-left.png";
-import roadmapimgright from "../../assets/roadmap-img-right.png";
+import roadmapimgleft from "../../assets/r1.png";
+import roadmapimgright from "../../assets/r2.png";
 import "./section4.css";
 
 const Section4 = () => {
@@ -14,7 +14,7 @@ const Section4 = () => {
         </div>
         <div className="roadmap-container">
           <div className="img-box">
-            <div className="img-wrapper">
+            <div className="img-left-wrapper">
               <img src={roadmapimgleft} alt="roadmapimgleft" />
             </div>
           </div>
@@ -28,77 +28,49 @@ const Section4 = () => {
               <span className="line-dot line-dot6"></span>
               <span className="pink lt1">Launch</span>
               <p className="lt2">
-                0.28888 ETH will be sent to 5 <br /> random owners
+                0.28888 ETH will be sent to 5<br /> random minters
               </p>
               <span className="pink lt3">25% Solid</span>
               <p className="lt4">
-                ETHereal Sloths will be listed on
-                <br /> rarity. tools where you can check
-                <br />
-                the rarity and rankings of your
-                <br />
-                sloths
+                ETHereal Sloths will be listed on rarity.tools and Rarity Sniper
+                where you can check the rarity and rankings of your Sloths
               </p>
               <span className="pink lt5">75% Solid</span>
               <ul className="lt6">
-                <li>20 ETH will go to charity</li>
                 <li>
-                  Development of a site will be
-                  <br />
-                  begin that promotes the
-                  <br />
-                  benefits of meditation
+                  20 ETH will be donated to “The Sloth Conservation Foundation”{" "}
                 </li>
                 <li>
-                  25 ETH will be reserved to
-                  <br />
-                  support the NFT community
+                  Development of a website will begin that promotes the benefits
+                  of meditation
                 </li>
+                <li>25 ETH will be reserved to support the NFT community</li>
+                <li>Creation of Mini comic series will begin</li>
                 <li>
-                  Creation of Mini comic series
-                  <br />
-                  will begin
-                </li>
-                <li>
-                  A new spiritual collection will
-                  <br />
-                  be born
+                  A new spiritual collection will be born which will be based
+                  upon “The numbered universe”
                 </li>
               </ul>
             </div>
             <div className="roadmap-right">
-              <p className="rt1">
-                8 September 2021
-                <br />8 PM EST
-              </p>
+              <p className="rt1">8th September 2021 8 PM EST</p>
               <span className="pink rt2">10% Solid</span>
               <p className="rt3">
-                10 ETHereal Sloths will be
-                <br />
-                randomly airdroped to early
-                <br />
-                minters
+                10 ETHereal Sloths will be randomly airdropped to early minters
               </p>
               <span className="pink rt4">50% Solid</span>
               <ul className="rt5">
+                <li>Development of our merchandise website will begin</li>
                 <li>
-                  Development of our
-                  <br />
-                  merchandise site will begin
-                </li>
-                <li>
-                  20 random minters will be given
-                  <br />
-                  a gift hamper of their ETHereal
-                  <br />
-                  Sloth NFT
+                  20 random minters will be given a gift hamper of their
+                  ETHereal Sloth NFT
                 </li>
               </ul>
               <span className="pink rt6">100% Solid</span>
             </div>
           </div>
           <div className="img-box">
-            <div className="img-wrapper">
+            <div className="img-right-wrapper">
               <img src={roadmapimgright} alt="roadmapimgleft" />
             </div>
           </div>

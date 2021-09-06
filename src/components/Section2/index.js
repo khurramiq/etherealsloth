@@ -16,15 +16,10 @@ const Section2 = ({ days, hours, minutes, seconds }) => {
             <p>ETHereal Sloths are coming out of hibernation</p>
             <h2>Wednesday, 8 September 2021</h2>
             <h2>8 PM EST</h2>
-          </>
-          {/* <>
-            <p style={{ color: "white" }}>
-              How many Sloths would you like to purchase?
-            </p>
-          </> */}
+          </>          
         </div>
         <div className="timer-wrapper">
-          <>
+          <div className="t-inner-wrapper">
             <div className="timer-single-box">
               <div className="top">
                 <span>{days}</span>
@@ -57,35 +52,8 @@ const Section2 = ({ days, hours, minutes, seconds }) => {
                 <span>SECONDS</span>
               </div>
             </div>
-          </>
-          {/* <>
-            <div className="timer-single-box">
-              <div className="top">
-                <span>1</span>
-              </div>
-              <div className="bottom">
-                <span>MAX 20</span>
-              </div>
-            </div>
-
-            <div className="cost-wrapper">
-              <p className="cost-text">COST</p>
-              <p className="cost-digit">
-                0.068888 <span>+GAS</span>
-              </p>
-            </div>
-
-            <div className="cost-wrapper">
-              <p className="cost-text">TOTAL COST</p>
-              <p className="cost-digit">
-                0.068888 <span>+GAS</span>
-              </p>
-            </div>
-          </> */}
-        </div>
-        {/* <div className="buy-now-btn-wrapper">
-          <button>BUY NOW</button>
-        </div> */}
+          </div>          
+        </div>        
       </div>
     </div>
   );

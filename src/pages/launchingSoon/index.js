@@ -13,21 +13,27 @@ import Footer from "../../components/footer";
 import AfterLaunch from "../../components/afterLaunch";
 
 toast.configure();
-const LaunchingSoon = ({ account, mint, totalSupply, displayPrice }) => {  
+const LaunchingSoon = ({
+  account,
+  mint,
+  totalSupply,
+  displayPrice,
+  loadWeb3,
+}) => {
   return (
     <div style={{ backgroundColor: "#1D1F4A" }}>
       <div className="banner">
-        <Header account={account}/>
+        <Header account={account} loadWeb3={loadWeb3} />
         <div className="mobile-view-connect-button-wrapper">
-          <button className="header-connect-button">
+          <button className="header-connect-button" onClick={() => loadWeb3()}>
             {account
               ? account.slice(0, 8) + "..." + account.slice(account.length - 5)
-              : "Disconnected"}
+              : "CONNECT"}
           </button>
           I
         </div>
         <Section1 />
-        <AfterLaunch />
+        <AfterLaunch account={account} mint={mint} />
       </div>
       <div name="collection" className="collection">
         <Section3 />
