@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="icon-wrapper-single">
-            <a href="https://twitter.com/borsezinfinity" target="_blank">
+            <a href="https://twitter.com/EtherealSloths" target="_blank">
               <img src={twitterlogo} alt="twitterlogo" />
             </a>
           </div>
